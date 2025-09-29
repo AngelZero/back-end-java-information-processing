@@ -12,17 +12,17 @@ This repository contains the **Sprint 2 deliverables** for the Digital NAO chall
 
 ## Repository structure
 
-- src/
-- main/
-- java/
-- ReaderAndConverter/
-- Reader/ # JsonReader (+ custom JsonReadException)
-- Converter/ # CsvWriter, CsvFormatOptions, ValueFormatter, DefaultValueFormatter (+ CsvWriteException)
-- Exceptions/ # Exceptions used by Reader/Writer
-- resources/ # (reserved for configs/samples later)
-- test/
-- java/ # JUnit tests for Reader and Writer
-- resources/ # (optional sample files)
+* src/
+* main/
+  * java/
+    * ReaderAndConverter/
+      * Reader/ # JsonReader (+ custom JsonReadException)
+      * Converter/ # CsvWriter, CsvFormatOptions, ValueFormatter, DefaultValueFormatter (+ CsvWriteException)
+      * Exceptions/ # Exceptions used by Reader/Writer
+  * resources/ # (reserved for configs/samples later)
+* test/
+  * java/ # JUnit tests for Reader and Writer
+  * resources/ # (optional sample files)
 
 ## Requirements
 
