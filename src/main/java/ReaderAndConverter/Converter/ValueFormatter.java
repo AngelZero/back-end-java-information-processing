@@ -3,7 +3,6 @@ package ReaderAndConverter.Converter;
 /**
  * EN: Strategy interface that converts arbitrary Java values into CSV cell strings.
  * Return {@code null} to request the writer to emit {@code opts.nullString()} for that cell.
- *
  * ES: Interfaz de estrategia que convierte valores Java en cadenas para celdas CSV.
  * Retorna {@code null} para indicar que el escritor emita {@code opts.nullString()} en esa celda.
  */

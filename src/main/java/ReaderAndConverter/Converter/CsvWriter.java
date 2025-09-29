@@ -19,7 +19,6 @@ import java.util.Objects;
  * EN: Writes tabular rows ({@code Map<column, value>}) to CSV with a fixed header order.
  * Structural CSV options come from {@link CsvFormatOptions}; cell content is stringified via a
  * {@link ValueFormatter} (default: {@link DefaultValueFormatter}).
- *
  * ES: Escribe filas tabulares ({@code Map<columna, valor>}) a CSV con un orden de encabezados fijo.
  * Las opciones estructurales provienen de {@link CsvFormatOptions}; el contenido de las celdas se
  * convierte a cadena con un {@link ValueFormatter} (por defecto: {@link DefaultValueFormatter}).

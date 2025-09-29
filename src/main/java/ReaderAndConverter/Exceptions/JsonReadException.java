@@ -6,7 +6,6 @@ import java.io.IOException;
  * EN: Checked exception representing any failure while reading or parsing JSON.
  * Wrapping I/O and Jackson exceptions behind a single type gives callers a stable API
  * and consistent user-friendly messages.
- *
  * ES: Excepción verificada que representa fallas al leer o parsear JSON.
  * Envolver excepciones de E/S y Jackson en un solo tipo da una API estable
  * y mensajes consistentes para el usuario.

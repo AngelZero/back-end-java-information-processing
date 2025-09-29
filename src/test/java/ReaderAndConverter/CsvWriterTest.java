@@ -26,9 +26,7 @@ class CsvWriterTest {
 
     @Test
     void writesCsv_defaultDialect_andFormats() throws Exception {
-        var writer = new CsvWriter();
         var headers = List.of("id", "name", "price", "tags", "active", "meta");
-
         var row1 = new HashMap<String, Object>();
         row1.put("id", 7);
         row1.put("name", "Paper A");
