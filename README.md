@@ -29,4 +29,10 @@ This repository contains the **Sprint 2 deliverables** for the Digital NAO chall
 - **Java 17+**
 - **Maven 3.9+**
 
----
+## Build, Test, and JavaDoc
+
+### Option 1 — via Maven Wrapper
+
+.\mvnw.cmd clean test
+.\mvnw.cmd javadoc:javadoc
+
