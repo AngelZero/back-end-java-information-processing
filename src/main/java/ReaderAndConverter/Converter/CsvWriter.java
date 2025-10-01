@@ -55,7 +55,7 @@ public final class CsvWriter {
      * @param headers EN: ordered column names | ES: nombres de columnas en orden
      * @param rows    EN: rows to print; values are formatted by {@link ValueFormatter}
      *                ES: filas a imprimir; valores formateados por {@link ValueFormatter}
-     * @param opts    EN/ES: CSV dialect and formatting policy | dialecto y políticas de formateo
+     * @param opts    EN/ES: CSV formatting policy | políticas de formateo
      * @throws CsvWriteException EN/ES: if an I/O error occurs while writing | si ocurre un error de E/S
      */
     public void write(Path output,
@@ -92,7 +92,7 @@ public final class CsvWriter {
                 for (int i = 0; i < headers.size(); i++) {
                     String key = headers.get(i);
                     Object raw = row.get(key);
-                    String cell = formatter.format(raw, opts);  // may return null -> prints nullString
+                    String cell = formatter.format(raw, opts);
                     record[i] = cell;
                 }
                 printer.printRecord(record);

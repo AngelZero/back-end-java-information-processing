@@ -7,10 +7,10 @@ import java.nio.charset.StandardCharsets;
 import java.time.format.DateTimeFormatter;
 
 /**
- * EN: CSV dialect configuration + cell-content formatting policy used by {@link CsvWriter}.
+ * EN: CSV configuration + cell-content formatting policy used by {@link CsvWriter}.
  * CSV is plain text; "cell formats" here means how Java values are converted to strings (dates,
  * numbers, booleans, arrays, nested objects) before printing.
- * ES: Configuración del dialecto CSV + políticas de formateo del contenido de celdas usado por
+ * ES: Configuración del CSV + políticas de formateo del contenido de celdas usado por
  * {@link CsvWriter}. CSV es texto plano; “formatos de celda” aquí significa cómo se convierten los
  * valores Java a cadenas (fechas, números, booleanos, listas, objetos anidados) antes de imprimir.
  */

@@ -63,7 +63,7 @@ class CsvWriterTest {
 
         // Row 2: nulls -> empty cells (default nullString = "")
         assertTrue(content.contains("\n8,Paper B,,\"\",false,")    // tags empty string prints as ""
-                || content.contains("\n8,Paper B,,,false,"));      // depending on library version, empty list may yield empty without explicit quotes
+                || content.contains("\n8,Paper B,,,false,"));
     }
 
 
