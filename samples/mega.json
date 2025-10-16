@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "dataset": "Scientometrics demo",
+    "generatedAt": "2024-10-12T15:20:30Z"
+  },
+  "author": {
+    "id": 7,
+    "name": "Beatriz",
+    "affiliation": {
+      "dept": "Scientometrics",
+      "university": "UNAM"
+    }
+  },
+  "papers": [
+    {
+      "pid": 101,
+      "title": "JSON → CSV",
+      "year": 2024,
+      "tags": ["etl", "csv"],
+      "doi": "10.1234/x",
+      "metrics": { "citations": 12, "h_index": 3 }
+    },
+    {
+      "pid": 102,
+      "title": "Scientometrics",
+      "year": 2025,
+      "tags": [],
+      "doi": "10.5678/y",
+      "metrics": null
+    }
+  ],
+  "projects": [
+    {
+      "code": "A1",
+      "team": [ { "name": "Ana" }, { "name": "Luis" } ]
+    }
+  ],
+  "notes": ["check quality", "=danger for Excel", "line1\nline2"],
+  "ids": [1, 2, 3],
+  "active": true,
+  "budget": 12345.67,
+  "nullable": null
+}
