@@ -1,0 +1,11 @@
+{
+  "author": {
+    "id": 7,
+    "name": "Beatriz"
+  },
+  "papers": [
+    {"pid": 101, "title": "JSON → CSV", "tags": ["etl", "csv"]},
+    {"pid": 102, "title": "Scientometrics", "tags": []}
+  ],
+  "active": true
+}
